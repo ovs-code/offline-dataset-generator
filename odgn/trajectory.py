@@ -65,6 +65,9 @@ class Trajectory:
     def length(self):
         return len(self.a)
 
+    def __len__(self):
+        return len(self.a)
+
     def add_step(
             self,
             o: Numeric,

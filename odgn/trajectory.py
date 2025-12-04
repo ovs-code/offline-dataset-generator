@@ -4,7 +4,7 @@ import copy
 import torch
 import numpy as np
 
-from mgmmz.core.constants import Numeric, Scalar
+from odgn.constants import Numeric, Scalar
 
 
 class Trajectory:

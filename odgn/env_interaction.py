@@ -4,8 +4,8 @@ import sys
 import gymnasium as gym
 import tqdm
 
-from mgmmz.core.trajectory import Trajectory
-from mgmmz.core.constants import Numeric
+from odgn.trajectory import Trajectory
+from odgn.constants import Numeric
 
 def collect_data(
         env: gym.Env,

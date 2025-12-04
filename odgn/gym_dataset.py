@@ -4,7 +4,7 @@ from dataclasses import dataclass
 from pathlib import Path
 import pickle
 
-from mgmmz.core.trajectory import Trajectory, TorchTrajectory
+from odgn.trajectory import Trajectory, TorchTrajectory
 
 @dataclass
 class GymDataset:

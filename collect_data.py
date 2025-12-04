@@ -4,9 +4,8 @@ import pickle
 from datetime import datetime
 from pathlib import Path
 
-import mgmmz
-from dcscg.core.env_interaction import collect_data
-from dcscg.core.gym_dataset import GymDataset
+from odgn.env_interaction import collect_data
+from odgn.gym_dataset import GymDataset
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()

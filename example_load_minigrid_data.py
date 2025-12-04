@@ -2,8 +2,8 @@ import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 import numpy as np
 
-from dcscg.core.gym_dataset import GymDataset
-from dcscg.core.trajectory import Trajectory
+from odgn.gym_dataset import GymDataset
+from odgn.trajectory import Trajectory
 from minigrid.core.constants import IDX_TO_OBJECT
 
 MY_COLORS = {
